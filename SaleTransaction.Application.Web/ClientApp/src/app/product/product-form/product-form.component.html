@@ -1,0 +1,43 @@
+<h2 mat-dialog-title>{{action}}</h2> 
+
+  <form [formGroup]="productForm"
+        novalidate>
+        <mat-error *ngIf="errorMessage">
+          {{errorMessage}}
+        </mat-error>
+       
+    
+    <mat-form-field class="mat-text">
+      <input matInput type="text" 
+             placeholder="Product Name"
+             formControlName="ProductName"
+             [(ngModel)]="selectedProduct.ProductName">      
+    </mat-form-field>
+    <br>
+    <mat-form-field class="mat-text">
+      <input matInput type="text"
+             placeholder="Product Category"
+             formControlName="ProductCategory"
+             [(ngModel)]="selectedProduct.ProductCategory">
+    </mat-form-field>
+    <br>
+   <mat-form-field class="mat-text">
+    <input matInput type="text" 
+           placeholder="Stock" 
+           formControlName="Stock"
+           [(ngModel)]="selectedProduct.Stock">
+  </mat-form-field>
+  <br>
+  <mat-form-field class="mat-text">
+   <input matInput type="text" 
+          placeholder="Amount" 
+          formControlName="Amount"
+          [(ngModel)]="selectedProduct.Amount">
+ </mat-form-field>
+  </form>
+  <mat-dialog-actions>
+    <button mat-button (click)='onSubmit()' [disabled]="!productForm.valid" >Add</button>
+    <button mat-button  (click)='onClose()' > Cancel</button>
+  </mat-dialog-actions>
+
+

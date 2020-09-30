@@ -1,0 +1,51 @@
+<h2 mat-dialog-title>{{action}}</h2> 
+
+  <form [formGroup]="customerForm"
+        novalidate>
+        <mat-error *ngIf="errorMessage">
+          {{errorMessage}}
+        </mat-error>
+       
+    
+    <mat-form-field class="mat-text">
+      <input matInput type="text" 
+             placeholder="FirstName"
+             formControlName="FirstName"
+             [(ngModel)]="selectedCustomer.FirstName">         
+    </mat-form-field>
+    <br>
+    <mat-form-field class="mat-text">
+      <input matInput type="text"
+             placeholder="Middle Name"
+             formControlName="MiddleName"
+             [(ngModel)]="selectedCustomer.MiddleName">
+    </mat-form-field>
+    <br>
+   <mat-form-field class="mat-text">
+    <input matInput type="text" 
+           placeholder="Last Name" 
+           formControlName="LastName"
+           [(ngModel)]="selectedCustomer.LastName">
+  </mat-form-field>
+  <br>
+  <mat-form-field class="mat-text">
+    <input matInput type="text" 
+           placeholder="Email" 
+           formControlName="Email"
+           [(ngModel)]="selectedCustomer.Email">
+  </mat-form-field>
+  <br>
+  <mat-form-field class="mat-text">
+    <input matInput type="text" 
+           placeholder="Gender" 
+           formControlName="Gender"
+           [(ngModel)]="selectedCustomer.Gender">
+  </mat-form-field>
+  
+  </form>
+  <mat-dialog-actions>
+    <button mat-button (click)='onSubmit()' [disabled]="!customerForm.valid" >Add</button>
+    <button mat-button  (click)='onClose()' > Cancel</button>
+  </mat-dialog-actions>
+
+

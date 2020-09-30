@@ -1,0 +1,13 @@
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.Model\bin\Debug\netcoreapp3.1\SaleTransaction.Application.Model.exe
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.Model\bin\Debug\netcoreapp3.1\SaleTransaction.Application.Model.deps.json
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.Model\bin\Debug\netcoreapp3.1\SaleTransaction.Application.Model.runtimeconfig.json
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.Model\bin\Debug\netcoreapp3.1\SaleTransaction.Application.Model.runtimeconfig.dev.json
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.Model\bin\Debug\netcoreapp3.1\SaleTransaction.Application.Model.dll
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.Model\bin\Debug\netcoreapp3.1\SaleTransaction.Application.Model.pdb
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.Model\obj\Debug\netcoreapp3.1\SaleTransaction.Application.Model.AssemblyInfoInputs.cache
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.Model\obj\Debug\netcoreapp3.1\SaleTransaction.Application.Model.AssemblyInfo.cs
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.Model\obj\Debug\netcoreapp3.1\SaleTransaction.Application.Model.csproj.CoreCompileInputs.cache
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.Model\obj\Debug\netcoreapp3.1\SaleTransaction.Application.Model.dll
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.Model\obj\Debug\netcoreapp3.1\SaleTransaction.Application.Model.pdb
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.Model\obj\Debug\netcoreapp3.1\SaleTransaction.Application.Model.genruntimeconfig.cache
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.Model\obj\Debug\netcoreapp3.1\SaleTransaction.Application.Model.csprojAssemblyReference.cache

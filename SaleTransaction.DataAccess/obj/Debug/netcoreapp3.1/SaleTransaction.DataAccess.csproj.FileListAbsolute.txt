@@ -1,0 +1,11 @@
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.DataAccess\bin\Debug\netcoreapp3.1\SaleTransaction.DataAccess.exe
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.DataAccess\obj\Debug\netcoreapp3.1\SaleTransaction.DataAccess.AssemblyInfoInputs.cache
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.DataAccess\obj\Debug\netcoreapp3.1\SaleTransaction.DataAccess.AssemblyInfo.cs
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.DataAccess\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.DataAccess\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.DataAccess\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.DataAccess\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.DataAccess\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.DataAccess\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.DataAccess\obj\Debug\netcoreapp3.1\SaleTransaction.DataAccess.csprojAssemblyReference.cache
+D:\Aqore 2020\Sales\SaleTransaction\SaleTransaction.DataAccess\obj\Debug\netcoreapp3.1\SaleTransaction.DataAccess.csproj.CopyComplete

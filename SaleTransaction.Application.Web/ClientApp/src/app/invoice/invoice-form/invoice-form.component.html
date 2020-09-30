@@ -1,0 +1,77 @@
+<h1 mat-dialog-title>Invoice</h1>
+
+<mat-card-header>
+  <mat-card-subtitle>Summary</mat-card-subtitle>
+</mat-card-header>
+<mat-card>
+<mat-card-content>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>TransactId</th>
+        <th>Product Name</th>
+        <th>Quantity</th>
+        <th>Rate</th>
+        <th>Total Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr *ngFor="let selectedInvoiceDetail of selectedInvoiceDetail">
+        <td>{{selectedInvoiceDetail.TransactId}}</td>
+          <td>{{selectedInvoiceDetail.ProductName}}</td>
+          <td>{{selectedInvoiceDetail.Quantity}}</td>
+          <td>{{selectedInvoiceDetail.Rate}}</td>
+          <td>{{selectedInvoiceDetail.TotalAmount}}</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <td>Total(After Discount)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>{{selectedInvoice.InvoiceAmount }}</td>
+    </tfoot>
+  </table>
+</mat-card-content>
+</mat-card>
+
+
+
+      <mat-card>
+        <mat-card-header>
+          <mat-card-subtitle>Summary</mat-card-subtitle>
+        </mat-card-header>
+    
+        <mat-card-content>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>InvoiceId</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Discount</th>
+                <th>Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <tr>
+                <td>{{selectedInvoice.InvoiceId}}</td>
+                <td>{{selectedInvoice.FirstName}}</td>
+                <td>{{selectedInvoice.LastName}}</td>
+                <td>{{selectedInvoice.InvoiceDiscount}}</td>
+                <td>{{selectedInvoice.InvoiceAmount}}</td>
+              </tr>
+            </tbody>
+            
+          </table>
+        </mat-card-content>
+      </mat-card>
+   
+
+
+<div mat-dialog-actions>
+  <button mat-button (click)="cancelClick() " color="warn">Cancel</button>
+  <button (click)="printInvoice()" mat-raised-button color="primary">Print</button>
+</div>
